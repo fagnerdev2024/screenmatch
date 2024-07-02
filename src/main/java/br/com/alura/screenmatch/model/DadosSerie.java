@@ -7,13 +7,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record DadosSerie(
 
-        @JsonAlias("Title")
+        @JsonAlias("Agora é a Branche do Raphael que foi mergeada para a minha")
         String tituloooo,
 
-        @JsonAlias("totalSeasons")
+        @JsonAlias("Agora é a Branche do Raphael que foi mergeada para a minha")
         Integer totalTemporadas,
 
-        @JsonAlias("imdbRating")
+        @JsonAlias("Agora é a Branche do Raphael que foi mergeada para a minha")
         String avaliacao) {
 
 
